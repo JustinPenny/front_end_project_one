@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className='content__header section__padding' id="home">
       <div className='content__header-content'>
-        <h1 className='gradient__text'> Come explore something amazing with Downtown Summerville</h1>
+        <h1 className='gradient__text'> Come explore the amazing Downtown Summerville</h1>
         <p>blurb about summerville here</p>
 
         <div className='content__header-content__input'>
