@@ -9,10 +9,10 @@ import { useState } from 'react'
 const Menu = () => (
   <>
   <p><a href="#home">Home</a></p>
-  <p><a href="#home">What is GPT? (Summerville?)</a></p>
-  <p><a href="#home">Open AI (Down town?)</a></p>
-  <p><a href="#home">Case Studies (Things to do?)</a></p>
-  <p><a href="#home">Library (History?)</a></p>
+  <p><a href="#wcontent">What is GPT? (Summerville?)</a></p>
+  <p><a href="#possibility">Open AI (Down town?)</a></p>
+  <p><a href="#features">Case Studies (Things to do?)</a></p>
+  <p><a href="#blog">Library (History?)</a></p>
   </>
 )
 

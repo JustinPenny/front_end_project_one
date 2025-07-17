@@ -33,7 +33,7 @@
 }
 
 /* Customizing feature component as per needs */
-.content__whatcontent-feature .content__features-container_feature-text {
+.content__whatcontent-feature .content__features-container__feature-text {
     max-width: 700px;
 }
 
@@ -81,7 +81,7 @@
 }
 
 /* Customizing feature component as per needs */
-.content__whatcontent-container .content__features-container_feature-text {
+.content__whatcontent-container .content__features-container__feature-text {
     margin-top: 0.5rem;
 }
 
@@ -104,7 +104,7 @@
     }
 
     /* Customizing feature component as per needs */
-    .content__whatcontent-feature .content__features-container_feature-text {
+    .content__whatcontent-feature .content__features-container__feature-text {
         margin-top: 0.5rem;
     }
 

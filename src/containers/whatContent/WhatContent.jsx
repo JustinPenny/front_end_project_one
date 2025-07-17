@@ -1,25 +1,21 @@
-import React from 'react'
-import './whatContent.css'
-import { Feature } from '../../components'
+import Feature from '../../components/feature/Feature';
+import './whatContent.css';
 
-// I have replaced the word 'gpt' with 'content' in my following of this project.
-const WhatContent = () => {
-  return (
-    <div className='content__whatcontent section__margin' id="whcontent">
-      <div className='content__whatcontent-feature'>
-          <Feature title= "Where is Summerville?" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."/>
-      </div>
-      <div className='content__whatcontent-heading'>
-        <h1 className='gradient__text'>The possibilities are beyond your imagination</h1>
-          <p>Explore the city</p>
-      </div>
-      <div className='content-whatcontent-container'>
-        <Feature title= "need filler title here1" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."/>        
-        <Feature title= "need filler title here2" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."/>
-        <Feature title= "need filler title here3" text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."/>      
-      </div>
+const Whatcontent = () => (
+  <div className="content__whatcontent section__margin" id="wcontent">
+    <div className="content__whatcontent-feature">
+      <Feature title="What is GPT-3" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by." />
     </div>
-  )
-}
+    <div className="content__whatcontent-heading">
+      <h1 className="gradient__text">The possibilities are beyond your imagination</h1>
+      <p>Explore the Library</p>
+    </div>
+    <div className="content__whatcontent-container">
+      <Feature title="Chatbots" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
+      <Feature title="Knowledgebase" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+      <Feature title="Education" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+    </div>
+  </div>
+);
 
-export default WhatContent
+export default Whatcontent;
